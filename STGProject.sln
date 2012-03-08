@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STGProject", "STGProject\STGProject.vcxproj", "{96E2F233-C695-419D-A4C3-F6180CD5046D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest", "UnitTest\UnitTest.vcxproj", "{4046E548-1EEE-4A58-AC29-6F8F0327B7B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PyMod", "PyMod", "{E0B3D637-F156-4FEA-A535-3DA49939E39E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game", "PyMod\Game\Game.vcxproj", "{CECC1272-C07E-4A03-84FE-53671413E91D}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Develop|Win32 = Develop|Win32
+		Develop|x64 = Develop|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96E2F233-C695-419D-A4C3-F6180CD5046D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{96E2F233-C695-419D-A4C3-F6180CD5046D}.Debug|Win32.Build.0 = Debug|Win32
+		{96E2F233-C695-419D-A4C3-F6180CD5046D}.Debug|x64.ActiveCfg = Debug|x64
+		{96E2F233-C695-419D-A4C3-F6180CD5046D}.Debug|x64.Build.0 = Debug|x64
+		{96E2F233-C695-419D-A4C3-F6180CD5046D}.Develop|Win32.ActiveCfg = Develop|Win32
+		{96E2F233-C695-419D-A4C3-F6180CD5046D}.Develop|Win32.Build.0 = Develop|Win32
+		{96E2F233-C695-419D-A4C3-F6180CD5046D}.Develop|x64.ActiveCfg = Develop|x64
+		{96E2F233-C695-419D-A4C3-F6180CD5046D}.Develop|x64.Build.0 = Develop|x64
+		{96E2F233-C695-419D-A4C3-F6180CD5046D}.Release|Win32.ActiveCfg = Release|Win32
+		{96E2F233-C695-419D-A4C3-F6180CD5046D}.Release|Win32.Build.0 = Release|Win32
+		{96E2F233-C695-419D-A4C3-F6180CD5046D}.Release|x64.ActiveCfg = Release|x64
+		{96E2F233-C695-419D-A4C3-F6180CD5046D}.Release|x64.Build.0 = Release|x64
+		{4046E548-1EEE-4A58-AC29-6F8F0327B7B1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4046E548-1EEE-4A58-AC29-6F8F0327B7B1}.Debug|Win32.Build.0 = Debug|Win32
+		{4046E548-1EEE-4A58-AC29-6F8F0327B7B1}.Debug|x64.ActiveCfg = Debug|x64
+		{4046E548-1EEE-4A58-AC29-6F8F0327B7B1}.Debug|x64.Build.0 = Debug|x64
+		{4046E548-1EEE-4A58-AC29-6F8F0327B7B1}.Develop|Win32.ActiveCfg = Develop|Win32
+		{4046E548-1EEE-4A58-AC29-6F8F0327B7B1}.Develop|Win32.Build.0 = Develop|Win32
+		{4046E548-1EEE-4A58-AC29-6F8F0327B7B1}.Develop|x64.ActiveCfg = Develop|x64
+		{4046E548-1EEE-4A58-AC29-6F8F0327B7B1}.Develop|x64.Build.0 = Develop|x64
+		{4046E548-1EEE-4A58-AC29-6F8F0327B7B1}.Release|Win32.ActiveCfg = Release|Win32
+		{4046E548-1EEE-4A58-AC29-6F8F0327B7B1}.Release|Win32.Build.0 = Release|Win32
+		{4046E548-1EEE-4A58-AC29-6F8F0327B7B1}.Release|x64.ActiveCfg = Release|x64
+		{4046E548-1EEE-4A58-AC29-6F8F0327B7B1}.Release|x64.Build.0 = Release|x64
+		{CECC1272-C07E-4A03-84FE-53671413E91D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CECC1272-C07E-4A03-84FE-53671413E91D}.Debug|Win32.Build.0 = Debug|Win32
+		{CECC1272-C07E-4A03-84FE-53671413E91D}.Debug|x64.ActiveCfg = Debug|x64
+		{CECC1272-C07E-4A03-84FE-53671413E91D}.Debug|x64.Build.0 = Debug|x64
+		{CECC1272-C07E-4A03-84FE-53671413E91D}.Develop|Win32.ActiveCfg = Develop|Win32
+		{CECC1272-C07E-4A03-84FE-53671413E91D}.Develop|Win32.Build.0 = Develop|Win32
+		{CECC1272-C07E-4A03-84FE-53671413E91D}.Develop|x64.ActiveCfg = Develop|x64
+		{CECC1272-C07E-4A03-84FE-53671413E91D}.Develop|x64.Build.0 = Develop|x64
+		{CECC1272-C07E-4A03-84FE-53671413E91D}.Release|Win32.ActiveCfg = Release|Win32
+		{CECC1272-C07E-4A03-84FE-53671413E91D}.Release|Win32.Build.0 = Release|Win32
+		{CECC1272-C07E-4A03-84FE-53671413E91D}.Release|x64.ActiveCfg = Release|x64
+		{CECC1272-C07E-4A03-84FE-53671413E91D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CECC1272-C07E-4A03-84FE-53671413E91D} = {E0B3D637-F156-4FEA-A535-3DA49939E39E}
+	EndGlobalSection
+EndGlobal

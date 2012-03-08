@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{f316639f-8e47-4e0d-a1d2-0363aa332ee6}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\libBulletML src">
+      <UniqueIdentifier>{1099c96d-ec19-4301-a5d6-c280cd7be59d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TinyXML src">
+      <UniqueIdentifier>{ded60494-05f7-4891-b418-0d0ec5c8692b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ygg src">
+      <UniqueIdentifier>{93acd566-8c8f-4c4f-9069-6d5b413f9066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f40c02fd-0f90-419b-80a8-86dd3d886e63}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\libBulletML header">
+      <UniqueIdentifier>{55cbcbcb-bf89-49d8-91eb-27ab1984635f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TinyXML header">
+      <UniqueIdentifier>{897212d5-d654-4763-8d8f-411b223c2fd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ygg header">
+      <UniqueIdentifier>{dc5f69ce-5ba3-4c48-b19d-4297c8438036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{0e5a0358-624b-4e1e-af06-5897e5bab8cd}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bulletml.cpp">
+      <Filter>Source Files\libBulletML src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bulletmlparser-tinyxml.cpp">
+      <Filter>Source Files\libBulletML src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bulletmlparser-xerces.cpp">
+      <Filter>Source Files\libBulletML src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bulletmlparser-ygg.cpp">
+      <Filter>Source Files\libBulletML src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bulletmlparser.cpp">
+      <Filter>Source Files\libBulletML src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bulletmlrunner.cpp">
+      <Filter>Source Files\libBulletML src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bulletmlrunnerimpl.cpp">
+      <Filter>Source Files\libBulletML src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bulletmltree.cpp">
+      <Filter>Source Files\libBulletML src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\calc.cpp">
+      <Filter>Source Files\libBulletML src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\formula-variables.cpp">
+      <Filter>Source Files\libBulletML src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml\tinyxml.cpp">
+      <Filter>Source Files\TinyXML src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml\tinyxmlerror.cpp">
+      <Filter>Source Files\TinyXML src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml\tinyxmlparser.cpp">
+      <Filter>Source Files\TinyXML src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ygg\ygg.cpp">
+      <Filter>Source Files\ygg src</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\auto_ptr_fix.h">
+      <Filter>Header Files\libBulletML header</Filter>
+    </ClInclude>
+    <ClInclude Include="bulletml.h">
+      <Filter>Header Files\libBulletML header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bulletmlcommon.h">
+      <Filter>Header Files\libBulletML header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bulletmlerror.h">
+      <Filter>Header Files\libBulletML header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bulletmlparser-tinyxml.h">
+      <Filter>Header Files\libBulletML header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bulletmlparser-xerces.h">
+      <Filter>Header Files\libBulletML header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bulletmlparser-ygg.h">
+      <Filter>Header Files\libBulletML header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bulletmlparser.h">
+      <Filter>Header Files\libBulletML header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bulletmlrunner.h">
+      <Filter>Header Files\libBulletML header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bulletmlrunnerimpl.h">
+      <Filter>Header Files\libBulletML header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bulletmltree.h">
+      <Filter>Header Files\libBulletML header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\calc.h">
+      <Filter>Header Files\libBulletML header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\formula-variables.h">
+      <Filter>Header Files\libBulletML header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\formula.h">
+      <Filter>Header Files\libBulletML header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tree.h">
+      <Filter>Header Files\libBulletML header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tinyxml\tinyxml.h">
+      <Filter>Header Files\TinyXML header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ygg\ygg.h">
+      <Filter>Header Files\ygg header</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

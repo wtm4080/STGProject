@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Develop|Win32">
+      <Configuration>Develop</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Develop|x64">
+      <Configuration>Develop</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{96E2F233-C695-419D-A4C3-F6180CD5046D}</ProjectGuid>
+    <RootNamespace>STGProject</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Develop|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\STGProperty.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Develop|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\STGProperty_x64.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\STGProperty.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\STGProperty_x64.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\STGProperty.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\STGProperty_x64.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)$(Configuration)_x64\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Temp\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Temp\$(Configuration)\x64\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)$(Configuration)_x64\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Temp\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Temp\$(Configuration)\x64\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Develop|x64'">$(SolutionDir)$(Configuration)_x64\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'">Temp\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Develop|x64'">Temp\$(Configuration)\x64\</IntDir>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ExecutablePath)</ExecutablePath>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ExecutablePath)</ExecutablePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(LibraryPath)</LibraryPath>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'">$(ExecutablePath)</ExecutablePath>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Develop|x64'">$(ExecutablePath)</ExecutablePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'">$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Develop|x64'">$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'">$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Develop|x64'">$(LibraryPath)</LibraryPath>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ExecutablePath)</ExecutablePath>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ExecutablePath)</ExecutablePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(LibraryPath)</LibraryPath>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName).Debug</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectName).Debug</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'">$(ProjectName).Develop</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Develop|x64'">$(ProjectName).Develop</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SLN_PLATFORM_WINDOWS;SLN_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>PCH.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+      <AdditionalOptions>-Zm200 %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Selene.Debug.2010.lib;libbulletml.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)bulletml\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SLN_PLATFORM_WINDOWS;SLN_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>PCH.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+      <AdditionalOptions>-Zm200 %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Selene.Debug.2010.lib;libbulletml.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)bulletml\Debug\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ProjectDir)Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SLN_PLATFORM_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>PCH.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+      <AdditionalOptions>-Zm200 %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Selene.2010.lib;libbulletml.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)bulletml\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ProjectDir)Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SLN_PLATFORM_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>PCH.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+      <AdditionalOptions>-Zm200 %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Selene.2010.lib;libbulletml.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)bulletml\Release\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SLN_PLATFORM_WINDOWS;SLN_DEVELOP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>PCH.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+      <AdditionalOptions>-Zm200 %(AdditionalOptions)</AdditionalOptions>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Selene.Develop.2010.lib;libbulletml.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)bulletml\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Develop|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SLN_PLATFORM_WINDOWS;SLN_DEVELOP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>PCH.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+      <AdditionalOptions>-Zm200 %(AdditionalOptions)</AdditionalOptions>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Selene.Develop.2010.lib;libbulletml.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)bulletml\Release\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Ctrl\Scene\Finalizer.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Auxs.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Bullet\BulletML\MLActor.cpp" />
+    <ClCompile Include="Source\Mdl\STG\MyShip\TestShip\Core.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\TestStage1\BMLParserHolder.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\En02.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\Idiot01.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\Idiot01a.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\Idiot01b.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\Idiot02.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\TestStage1\Event\Ev02.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\TestStage1\Event\Ev03.cpp" />
+    <ClCompile Include="Source\Util\Python\Manager.cpp" />
+    <ClCompile Include="Source\Util\STG\Locator\MLLocator.cpp" />
+    <ClCompile Include="Source\View\FadeIn.cpp" />
+    <ClCompile Include="Source\View\FadeOut.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Resource\Common.cpp" />
+    <ClCompile Include="Source\Mdl\STG\MyShip\Base.cpp" />
+    <ClCompile Include="Source\Mdl\STG\MyShip\Configuration.cpp" />
+    <ClCompile Include="Source\Mdl\STG\MyShip\TypeA\Core.cpp" />
+    <ClCompile Include="Source\Mdl\STG\MyShip\TypeA\Laser.cpp" />
+    <ClCompile Include="Source\Mdl\STG\MyShip\TypeA\Missile.cpp" />
+    <ClCompile Include="Source\Mdl\STG\MyShip\TypeA\Option.cpp" />
+    <ClCompile Include="Source\Mdl\STG\MyShip\TypeA\Resource.cpp" />
+    <ClCompile Include="Source\Mdl\STG\MyShip\TypeA\SpMissile.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Stage\Configuration.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Stage\StageSet\Base.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\Background.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\Resource.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\StageSetCore.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\TestStage1\StageCore.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\TestStage1\Event\Ev01.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\En01.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Bullet\Base.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Bullet\Linear.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Bullet\Rotate.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Bullet\Launcher\Circle.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Bullet\Launcher\NWay.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Enemy\Base.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Enemy\HPGauge.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Item\Base.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Item\Extend.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Item\PowerUp.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Item\SupplySpAttack.cpp" />
+    <ClCompile Include="Source\Mdl\STG\MyShot\Base.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Actor\Animation.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Actor\Base.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Actor\FadeOut.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Actor\Particle\Creator.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Actor\Particle\Particle.cpp" />
+    <ClCompile Include="Source\Util\Console.cpp" />
+    <ClCompile Include="Source\Util\Exception.cpp" />
+    <ClCompile Include="Source\Util\Resource\Manager.cpp" />
+    <ClCompile Include="Source\Util\Sprite\Animation.cpp" />
+    <ClCompile Include="Source\Util\Sprite\Manager.cpp" />
+    <ClCompile Include="Source\Util\File\Manager.cpp" />
+    <ClCompile Include="Source\Util\File\Detail\Cache.cpp" />
+    <ClCompile Include="Source\Util\File\Detail\DeviceOfDynamicFile.cpp" />
+    <ClCompile Include="Source\Util\File\Detail\DynamicFile.cpp" />
+    <ClCompile Include="Source\Util\File\Detail\SourceOfFile.cpp" />
+    <ClCompile Include="Source\Util\File\Detail\SyncFile.cpp" />
+    <ClCompile Include="Source\Util\Sound\Manager.cpp" />
+    <ClCompile Include="Source\Util\Sound\Detail\Static.cpp" />
+    <ClCompile Include="Source\Util\Sound\Detail\Stream.cpp" />
+    <ClCompile Include="Source\Util\STG\ArrowLocator.cpp" />
+    <ClCompile Include="Source\Util\STG\NWay.cpp" />
+    <ClCompile Include="Source\Util\Font\Manager.cpp" />
+    <ClCompile Include="Source\Util\Font\Detail\SLNFont.cpp" />
+    <ClCompile Include="Source\Util\Font\Detail\TextureLoader.cpp" />
+    <ClCompile Include="Source\Util\Input\Manager.cpp" />
+    <ClCompile Include="Source\Util\Input\STG\Detail\Controller.cpp" />
+    <ClCompile Include="Source\Util\Input\STG\Detail\ReplayController.cpp" />
+    <ClCompile Include="Source\Util\Core\Manager.cpp" />
+    <ClCompile Include="Source\Util\Random\Impl\SLN.cpp" />
+    <ClCompile Include="Source\Ctrl\Scene\Initialize.cpp" />
+    <ClCompile Include="Source\Ctrl\Scene\Manager.cpp" />
+    <ClCompile Include="Source\Ctrl\Scene\STG\STG.cpp" />
+    <ClCompile Include="Source\Ctrl\Scene\STG\Title.cpp" />
+    <ClCompile Include="Source\Ctrl\STG\Actors.cpp" />
+    <ClCompile Include="Source\Ctrl\STG\Pause.cpp" />
+    <ClCompile Include="Source\Ctrl\STG\Option\Manager.cpp" />
+    <ClCompile Include="Source\Ctrl\STG\Option\Detail\SettingFile.cpp" />
+    <ClCompile Include="Source\Ctrl\STG\Mode\Base.cpp" />
+    <ClCompile Include="Source\Ctrl\STG\Mode\Regular.cpp" />
+    <ClCompile Include="Source\Ctrl\STG\Mode\Replay.cpp" />
+    <ClCompile Include="Source\Ctrl\STG\Mode\StageSelect.cpp" />
+    <ClCompile Include="Source\Ctrl\STG\Mode\Conf\Holder.cpp" />
+    <ClCompile Include="Source\Ctrl\STG\Configuration\Manager.cpp" />
+    <ClCompile Include="Source\IntrusivePtr.cpp" />
+    <ClCompile Include="Source\PCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Develop|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Source\Ctrl\Scene\Finalizer.h" />
+    <ClInclude Include="Source\Ctrl\Scene\PyScene.h" />
+    <ClInclude Include="Source\Ctrl\STG\Collision\Detector.h" />
+    <ClInclude Include="Source\Ctrl\STG\Collision\Manager.h" />
+    <ClInclude Include="Source\Ctrl\STG\Collision\Node.h" />
+    <ClInclude Include="Source\Ctrl\STG\Configuration\Data\Pause.h" />
+    <ClInclude Include="Source\Ctrl\STG\Python\ActorsImpl.h" />
+    <ClInclude Include="Source\Ctrl\STG\Python\ConfImpl.h" />
+    <ClInclude Include="Source\Ctrl\STG\Python\IActors.h" />
+    <ClInclude Include="Source\Ctrl\STG\Python\IConf.h" />
+    <ClInclude Include="Source\Ctrl\STG\Python\ISTG.h" />
+    <ClInclude Include="Source\Ctrl\STG\Python\STGImpl.h" />
+    <ClInclude Include="Source\Mdl\STG\Auxs.h" />
+    <ClInclude Include="Source\Mdl\STG\Bullet\BulletML\CreateParam.h" />
+    <ClInclude Include="Source\Mdl\STG\Bullet\BulletML\MLActor.h" />
+    <ClInclude Include="Source\Mdl\STG\MyShip\TestShip\Core.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\BMLParserHolder.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\BMLParserType.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\En02.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\Idiot01.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\Idiot01a.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\Idiot01b.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\Idiot02.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\Event\Ev02.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\Event\Ev03.h" />
+    <ClInclude Include="Source\Util\Python\Manager.h" />
+    <ClInclude Include="Source\Util\Python\Wrapper\ConsoleImpl.h" />
+    <ClInclude Include="Source\Util\Python\Wrapper\FileImpl.h" />
+    <ClInclude Include="Source\Util\Python\Wrapper\FontImpl.h" />
+    <ClInclude Include="Source\Util\Python\Wrapper\IConsole.h" />
+    <ClInclude Include="Source\Util\Python\Wrapper\IFile.h" />
+    <ClInclude Include="Source\Util\Python\Wrapper\IFont.h" />
+    <ClInclude Include="Source\Util\Python\Wrapper\IInput.h" />
+    <ClInclude Include="Source\Util\Python\Wrapper\InputImpl.h" />
+    <ClInclude Include="Source\Util\Python\Wrapper\IScene.h" />
+    <ClInclude Include="Source\Util\Python\Wrapper\ISound.h" />
+    <ClInclude Include="Source\Util\Python\Wrapper\ISprite.h" />
+    <ClInclude Include="Source\Util\Python\Wrapper\SceneImpl.h" />
+    <ClInclude Include="Source\Util\Python\Wrapper\SoundImpl.h" />
+    <ClInclude Include="Source\Util\Python\Wrapper\SpriteImpl.h" />
+    <ClInclude Include="Source\Util\RepeatQueue.h" />
+    <ClInclude Include="Source\Util\STG\Circling.h" />
+    <ClInclude Include="Source\Util\STG\Locator\MLLocator.h" />
+    <ClInclude Include="Source\View\FadeIn.h" />
+    <ClInclude Include="Source\View\FadeOut.h" />
+    <ClInclude Include="Source\View\Forward.h" />
+    <ClInclude Include="Source\View\STG\DrawPriority.h" />
+    <ClInclude Include="Source\View\STG\Forward.h" />
+    <ClInclude Include="Source\View\STG\Pause\IPause.h" />
+    <ClInclude Include="Source\Mdl\Forward.h" />
+    <ClInclude Include="Source\Mdl\STG\Forward.h" />
+    <ClInclude Include="Source\Mdl\STG\Resource\Common.h" />
+    <ClInclude Include="Source\Mdl\STG\MyShip\Base.h" />
+    <ClInclude Include="Source\Mdl\STG\MyShip\IMyShip.h" />
+    <ClInclude Include="Source\Mdl\STG\MyShip\Parameter.h" />
+    <ClInclude Include="Source\Mdl\STG\MyShip\TypeA\Core.h" />
+    <ClInclude Include="Source\Mdl\STG\MyShip\TypeA\Laser.h" />
+    <ClInclude Include="Source\Mdl\STG\MyShip\TypeA\Missile.h" />
+    <ClInclude Include="Source\Mdl\STG\MyShip\TypeA\Option.h" />
+    <ClInclude Include="Source\Mdl\STG\MyShip\TypeA\Resource.h" />
+    <ClInclude Include="Source\Mdl\STG\MyShip\TypeA\SpMissile.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\Event\Base.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\Event\IEvent.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\Stage\Base.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\Stage\IStage.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\Stage\Parameter.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\StageSet\Base.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\StageSet\IStageSet.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\StageSet\Parameter.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\Background.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\Forward.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\Resource.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\StageSetCore.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\StageCore.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\Event\Ev01.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\En01.h" />
+    <ClInclude Include="Source\Mdl\STG\Bullet\Base.h" />
+    <ClInclude Include="Source\Mdl\STG\Bullet\IBullet.h" />
+    <ClInclude Include="Source\Mdl\STG\Bullet\Linear.h" />
+    <ClInclude Include="Source\Mdl\STG\Bullet\Rotate.h" />
+    <ClInclude Include="Source\Mdl\STG\Bullet\Launcher\Circle.h" />
+    <ClInclude Include="Source\Mdl\STG\Bullet\Launcher\NWay.h" />
+    <ClInclude Include="Source\Mdl\STG\Enemy\Base.h" />
+    <ClInclude Include="Source\Mdl\STG\Enemy\HPGauge.h" />
+    <ClInclude Include="Source\Mdl\STG\Enemy\IEnemy.h" />
+    <ClInclude Include="Source\Mdl\STG\Item\Base.h" />
+    <ClInclude Include="Source\Mdl\STG\Item\Extend.h" />
+    <ClInclude Include="Source\Mdl\STG\Item\IItem.h" />
+    <ClInclude Include="Source\Mdl\STG\Item\PowerUp.h" />
+    <ClInclude Include="Source\Mdl\STG\Item\SupplySpAttack.h" />
+    <ClInclude Include="Source\Mdl\STG\MyShot\Base.h" />
+    <ClInclude Include="Source\Mdl\STG\MyShot\IMyShot.h" />
+    <ClInclude Include="Source\Mdl\STG\Actor\Animation.h" />
+    <ClInclude Include="Source\Mdl\STG\Actor\Base.h" />
+    <ClInclude Include="Source\Mdl\STG\Actor\FadeOut.h" />
+    <ClInclude Include="Source\Mdl\STG\Actor\IActor.h" />
+    <ClInclude Include="Source\Mdl\STG\Actor\Particle\Creator.h" />
+    <ClInclude Include="Source\Mdl\STG\Actor\Particle\Parameter.h" />
+    <ClInclude Include="Source\Mdl\STG\Actor\Particle\Particle.h" />
+    <ClInclude Include="Source\Util\Common.h" />
+    <ClInclude Include="Source\Util\Console.h" />
+    <ClInclude Include="Source\Util\Consts.h" />
+    <ClInclude Include="Source\Util\Exception.h" />
+    <ClInclude Include="Source\Util\Forward.h" />
+    <ClInclude Include="Source\Util\FunctionList.h" />
+    <ClInclude Include="Source\Util\FunctionQueue.h" />
+    <ClInclude Include="Source\Util\Pager.h" />
+    <ClInclude Include="Source\Util\RepeatCounter.h" />
+    <ClInclude Include="Source\Util\SafeUpdateObject.h" />
+    <ClInclude Include="Source\Util\Resource\Manager.h" />
+    <ClInclude Include="Source\Util\Resource\Exception\Duplicate.h" />
+    <ClInclude Include="Source\Util\Resource\Exception\NotFound.h" />
+    <ClInclude Include="Source\Util\Sprite\Animation.h" />
+    <ClInclude Include="Source\Util\Sprite\DrawParameter.h" />
+    <ClInclude Include="Source\Util\Sprite\Manager.h" />
+    <ClInclude Include="Source\Util\Sprite\SrcDef.h" />
+    <ClInclude Include="Source\Util\Sprite\Exception\InvalidTexture.h" />
+    <ClInclude Include="Source\Util\File\IDynamicFile.h" />
+    <ClInclude Include="Source\Util\File\Manager.h" />
+    <ClInclude Include="Source\Util\File\Stream.h" />
+    <ClInclude Include="Source\Util\File\Exception\NotFound.h" />
+    <ClInclude Include="Source\Util\File\Detail\Cache.h" />
+    <ClInclude Include="Source\Util\File\Detail\DeviceOfDynamicFile.h" />
+    <ClInclude Include="Source\Util\File\Detail\DynamicFile.h" />
+    <ClInclude Include="Source\Util\File\Detail\ICrypt.h" />
+    <ClInclude Include="Source\Util\File\Detail\SourceOfFile.h" />
+    <ClInclude Include="Source\Util\File\Detail\SyncFile.h" />
+    <ClInclude Include="Source\Util\Sound\IStatic.h" />
+    <ClInclude Include="Source\Util\Sound\IStream.h" />
+    <ClInclude Include="Source\Util\Sound\Manager.h" />
+    <ClInclude Include="Source\Util\Sound\Exception\Invalid.h" />
+    <ClInclude Include="Source\Util\Sound\Exception\InvalidLayer.h" />
+    <ClInclude Include="Source\Util\Sound\Detail\Static.h" />
+    <ClInclude Include="Source\Util\Sound\Detail\Stream.h" />
+    <ClInclude Include="Source\Util\STG\ArrowLocator.h" />
+    <ClInclude Include="Source\Util\STG\Consts.h" />
+    <ClInclude Include="Source\Util\STG\Forward.h" />
+    <ClInclude Include="Source\Util\STG\NWay.h" />
+    <ClInclude Include="Source\Util\STG\Vector2D.h" />
+    <ClInclude Include="Source\Util\STG\Hit\Circle.h" />
+    <ClInclude Include="Source\Util\STG\Hit\Rect.h" />
+    <ClInclude Include="Source\Util\STG\Locator\ILocator.h" />
+    <ClInclude Include="Source\Util\STG\Locator\Linear.h" />
+    <ClInclude Include="Source\Util\STG\Locator\Rotate.h" />
+    <ClInclude Include="Source\Util\STG\Locator\Trace.h" />
+    <ClInclude Include="Source\Util\Font\IFont.h" />
+    <ClInclude Include="Source\Util\Font\Manager.h" />
+    <ClInclude Include="Source\Util\Font\Exception\Invalid.h" />
+    <ClInclude Include="Source\Util\Font\Detail\SLNFont.h" />
+    <ClInclude Include="Source\Util\Font\Detail\TextureLoader.h" />
+    <ClInclude Include="Source\Util\Delegate\Delegate.h" />
+    <ClInclude Include="Source\Util\Delegate\Forward.h" />
+    <ClInclude Include="Source\Util\Delegate\Detail\IHolder.h" />
+    <ClInclude Include="Source\Util\Delegate\Detail\RawPtrHolder.h" />
+    <ClInclude Include="Source\Util\Delegate\Detail\SharedPtrHolder.h" />
+    <ClInclude Include="Source\Util\Delegate\Detail\StaticHolder.h" />
+    <ClInclude Include="Source\Util\Delegate\Detail\WeakPtrHolder.h" />
+    <ClInclude Include="Source\Util\Input\Manager.h" />
+    <ClInclude Include="Source\Util\Input\STG\Forward.h" />
+    <ClInclude Include="Source\Util\Input\STG\IController.h" />
+    <ClInclude Include="Source\Util\Input\STG\Detail\Controller.h" />
+    <ClInclude Include="Source\Util\Input\STG\Detail\ReplayController.h" />
+    <ClInclude Include="Source\Util\Core\Manager.h" />
+    <ClInclude Include="Source\Util\Random\IRandom.h" />
+    <ClInclude Include="Source\Util\Random\Impl\SLN.h" />
+    <ClInclude Include="Source\Ctrl\Forward.h" />
+    <ClInclude Include="Source\Ctrl\Scene\Initialize.h" />
+    <ClInclude Include="Source\Ctrl\Scene\IScene.h" />
+    <ClInclude Include="Source\Ctrl\Scene\Manager.h" />
+    <ClInclude Include="Source\Ctrl\Scene\STG\Forward.h" />
+    <ClInclude Include="Source\Ctrl\Scene\STG\STG.h" />
+    <ClInclude Include="Source\Ctrl\Scene\STG\Title.h" />
+    <ClInclude Include="Source\Ctrl\STG\Actors.h" />
+    <ClInclude Include="Source\Ctrl\STG\Forward.h" />
+    <ClInclude Include="Source\Ctrl\STG\Pause.h" />
+    <ClInclude Include="Source\Ctrl\STG\Option\Manager.h" />
+    <ClInclude Include="Source\Ctrl\STG\Option\Parameter.h" />
+    <ClInclude Include="Source\Ctrl\STG\Option\Detail\SettingFile.h" />
+    <ClInclude Include="Source\Ctrl\STG\Mode\Base.h" />
+    <ClInclude Include="Source\Ctrl\STG\Mode\IMode.h" />
+    <ClInclude Include="Source\Ctrl\STG\Mode\Regular.h" />
+    <ClInclude Include="Source\Ctrl\STG\Mode\Replay.h" />
+    <ClInclude Include="Source\Ctrl\STG\Mode\StageSelect.h" />
+    <ClInclude Include="Source\Ctrl\STG\Mode\Conf\Holder.h" />
+    <ClInclude Include="Source\Ctrl\STG\Mode\Conf\Regular.h" />
+    <ClInclude Include="Source\Ctrl\STG\Mode\Conf\Replay.h" />
+    <ClInclude Include="Source\Ctrl\STG\Mode\Conf\StageSelect.h" />
+    <ClInclude Include="Source\Ctrl\STG\Configuration\ConfigurateMyShip.h" />
+    <ClInclude Include="Source\Ctrl\STG\Configuration\ConfigurateStage.h" />
+    <ClInclude Include="Source\Ctrl\STG\Configuration\Manager.h" />
+    <ClInclude Include="Source\Ctrl\STG\Configuration\Data\MyShip.h" />
+    <ClInclude Include="Source\Ctrl\STG\Configuration\Data\Stage.h" />
+    <ClInclude Include="Source\Ctrl\STG\Configuration\Data\StageSet.h" />
+    <ClInclude Include="Source\Ctrl\STG\Configuration\Detail\Holder.h" />
+    <ClInclude Include="Source\Ctrl\STG\Configuration\Detail\IInstantiation.h" />
+    <ClInclude Include="Source\Ctrl\STG\Configuration\Detail\Instantiation.h" />
+    <ClInclude Include="Source\BoostFwd.h" />
+    <ClInclude Include="Source\Fwd.h" />
+    <ClInclude Include="Source\PCH.h" />
+    <ClInclude Include="Source\SLNFwd.h" />
+    <ClInclude Include="Source\StdFwd.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="STGProject.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon1.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

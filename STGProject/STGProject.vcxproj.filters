@@ -1,0 +1,1080 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="View">
+      <UniqueIdentifier>{615f8651-179e-4c95-bd14-319de2796421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\STG">
+      <UniqueIdentifier>{21334125-3c87-4f88-a5ca-59be251fee71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\STG\Pause">
+      <UniqueIdentifier>{8b78e4f3-d852-4654-97b8-74eec192c62d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mdl">
+      <UniqueIdentifier>{9ade341f-c71f-41c9-ae2d-66952a71323a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mdl\STG">
+      <UniqueIdentifier>{264f8214-e4ab-4d95-820c-3ff32905df67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mdl\STG\Resource">
+      <UniqueIdentifier>{c6c74afd-9805-4f6e-808b-212907af9577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mdl\STG\MyShip">
+      <UniqueIdentifier>{558dbbf9-887e-412c-bdbc-1f37199bcd5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mdl\STG\MyShip\TypeA">
+      <UniqueIdentifier>{70a99af3-d1c0-4aaf-909a-1e29f4c24fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mdl\STG\Stage">
+      <UniqueIdentifier>{e404d8d1-574c-4405-9cf6-e7fbd560239a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mdl\STG\Stage\Event">
+      <UniqueIdentifier>{00131c64-911f-4424-92b9-0fd235d83e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mdl\STG\Stage\Stage">
+      <UniqueIdentifier>{61a16c0d-babc-463c-8b41-d20b893bfb0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mdl\STG\Stage\StageSet">
+      <UniqueIdentifier>{6c11d181-737c-4385-8ccc-8c3ea33cd3b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mdl\STG\Stage\Test">
+      <UniqueIdentifier>{24140926-5943-446e-aa4b-2a3b624026f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mdl\STG\Stage\Test\TestStage1">
+      <UniqueIdentifier>{e3a22f6c-a03f-4b0c-b328-7de469e79f3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mdl\STG\Stage\Test\TestStage1\Event">
+      <UniqueIdentifier>{e85fdef3-155a-408e-b5ae-f9e1fc597d48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mdl\STG\Stage\Test\TestStage1\Enemy">
+      <UniqueIdentifier>{4127cd2a-599a-47c6-89ee-ba0464e64b35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mdl\STG\Bullet">
+      <UniqueIdentifier>{db318c08-922f-419e-9dcc-7fbc638ead63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mdl\STG\Bullet\Launcher">
+      <UniqueIdentifier>{dfe44700-34c9-4b81-8b06-528ed0474c47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mdl\STG\Enemy">
+      <UniqueIdentifier>{1ae68e02-7b2c-4e28-a957-28f23fac2b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mdl\STG\Item">
+      <UniqueIdentifier>{fd6f02f5-0186-45c4-8fc7-db7ec44257b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mdl\STG\MyShot">
+      <UniqueIdentifier>{0d58b13b-fa4b-462b-8ae5-7838877d9e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mdl\STG\Actor">
+      <UniqueIdentifier>{0efb2306-c491-4cb2-9011-9156521193c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mdl\STG\Actor\Particle">
+      <UniqueIdentifier>{4d69531a-70b8-43a3-90f6-59690357cbb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{e8778b68-7db7-4c55-9fa1-8998959d6191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Resource">
+      <UniqueIdentifier>{0347b58c-ea18-465d-af88-3d0f4a8daa17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Resource\Exception">
+      <UniqueIdentifier>{70e9ea66-c0a3-4419-9f0c-f5842ad45e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Sprite">
+      <UniqueIdentifier>{baef484a-df63-4f54-a33a-5b97adefbb65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Sprite\Exception">
+      <UniqueIdentifier>{b2702ab6-9e16-47d3-9a9f-ffc3d8f4399b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\File">
+      <UniqueIdentifier>{6aa1d7bb-25bd-447a-ac2b-c4bd9890b70b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\File\Exception">
+      <UniqueIdentifier>{8861c2e0-8162-4652-9238-b65d3dec79ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\File\Detail">
+      <UniqueIdentifier>{42c2b319-057f-4519-8ca8-8d0afeaedf4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Sound">
+      <UniqueIdentifier>{c7d6be1c-3443-4ccd-ba97-749aee6e9355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Sound\Exception">
+      <UniqueIdentifier>{3debbb16-21a7-4658-908b-f2771d414642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Sound\Detail">
+      <UniqueIdentifier>{7641cafa-baaf-4f0a-95b9-d010deb290b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\STG">
+      <UniqueIdentifier>{33b324e2-ea17-4d44-a51e-d6e0b32c6a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\STG\Hit">
+      <UniqueIdentifier>{de54619a-0672-42f2-bcf1-709c214ee7c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\STG\Locator">
+      <UniqueIdentifier>{73e6ae9c-a84b-465c-99b4-63e88a968005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Font">
+      <UniqueIdentifier>{f3190bef-3348-4f8c-b2da-e042ed13d019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Font\Exception">
+      <UniqueIdentifier>{35709e0c-df23-43e0-9ca9-c9111afdbbe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Font\Detail">
+      <UniqueIdentifier>{6ce4c6fc-d67f-4177-af3a-f4b5dd4a0907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Delegate">
+      <UniqueIdentifier>{890e981c-581d-4075-9163-059293f5c770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Delegate\Detail">
+      <UniqueIdentifier>{d8e4ed71-ec65-4b68-9545-60d593de3a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Input">
+      <UniqueIdentifier>{c204a756-d960-4076-a3eb-2c860af206d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Input\STG">
+      <UniqueIdentifier>{472efb7d-a3bf-4f0a-9172-911263b577e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Input\STG\Detail">
+      <UniqueIdentifier>{f3efa2b9-76b5-4fcf-ba30-d03989021ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Core">
+      <UniqueIdentifier>{27a1a2f1-f5c5-4258-b986-ef10be69fab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Random">
+      <UniqueIdentifier>{3794a72d-bb75-43f4-b02e-932f94bfe913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Random\Impl">
+      <UniqueIdentifier>{7351b5d1-a5ab-4a20-8fc1-2c91bc30029e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ctrl">
+      <UniqueIdentifier>{814c9a01-ea18-4e83-94a9-542b45f254cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ctrl\Scene">
+      <UniqueIdentifier>{dd4339d5-1821-4d6d-bc0c-b8a0c1abd8a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ctrl\Scene\STG">
+      <UniqueIdentifier>{c6b39f2e-cec8-4506-b9b7-b70d04bcd353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ctrl\STG">
+      <UniqueIdentifier>{ba3e4914-fad3-4d46-a5d4-b9751b50b2c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ctrl\STG\Option">
+      <UniqueIdentifier>{220f0627-ba63-45e2-93bd-937e892beba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ctrl\STG\Option\Detail">
+      <UniqueIdentifier>{e44aa7e1-fe58-4f5e-80bf-a2cada754d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ctrl\STG\Mode">
+      <UniqueIdentifier>{2e8a2839-e580-444d-ad5e-9b3c0293cc62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ctrl\STG\Mode\Conf">
+      <UniqueIdentifier>{6aa16a21-f526-435c-9c3e-ab63a2a8e54f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ctrl\STG\Configuration">
+      <UniqueIdentifier>{8dd90fde-161e-4c91-99b8-370a987defdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ctrl\STG\Configuration\Data">
+      <UniqueIdentifier>{9013a19f-aecf-476b-8918-9c9cf438cf5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ctrl\STG\Configuration\Detail">
+      <UniqueIdentifier>{44133a8d-6a70-44c7-80d2-c88717516494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mdl\STG\MyShip\TestShip">
+      <UniqueIdentifier>{59f270db-1686-476d-81a7-ce8f51542c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mdl\STG\Bullet\BulletML">
+      <UniqueIdentifier>{21856bd9-8a78-4881-b280-2cc16362a8b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Python">
+      <UniqueIdentifier>{5476f955-d211-4d2f-954b-7e285542d16e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Python\Wrapper">
+      <UniqueIdentifier>{ccdc1d15-5b43-4201-ad10-4c38b792d89b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ctrl\STG\Python">
+      <UniqueIdentifier>{a1792f84-45ed-44a3-9137-c5e06af7b534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ctrl\STG\Collision">
+      <UniqueIdentifier>{c2874ea5-e029-436c-a5fa-fa91e3964068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{0aa24232-b5e9-42f0-9aa1-26bab928dd66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\View\FadeIn.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\View\FadeOut.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Resource\Common.cpp">
+      <Filter>Mdl\STG\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\MyShip\Base.cpp">
+      <Filter>Mdl\STG\MyShip</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\MyShip\Configuration.cpp">
+      <Filter>Mdl\STG\MyShip</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\MyShip\TypeA\Core.cpp">
+      <Filter>Mdl\STG\MyShip\TypeA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\MyShip\TypeA\Laser.cpp">
+      <Filter>Mdl\STG\MyShip\TypeA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\MyShip\TypeA\Missile.cpp">
+      <Filter>Mdl\STG\MyShip\TypeA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\MyShip\TypeA\Option.cpp">
+      <Filter>Mdl\STG\MyShip\TypeA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\MyShip\TypeA\Resource.cpp">
+      <Filter>Mdl\STG\MyShip\TypeA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\MyShip\TypeA\SpMissile.cpp">
+      <Filter>Mdl\STG\MyShip\TypeA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Stage\Configuration.cpp">
+      <Filter>Mdl\STG\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Stage\StageSet\Base.cpp">
+      <Filter>Mdl\STG\Stage\StageSet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\Background.cpp">
+      <Filter>Mdl\STG\Stage\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\Resource.cpp">
+      <Filter>Mdl\STG\Stage\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\TestStage1\Event\Ev01.cpp">
+      <Filter>Mdl\STG\Stage\Test\TestStage1\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\En01.cpp">
+      <Filter>Mdl\STG\Stage\Test\TestStage1\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Bullet\Base.cpp">
+      <Filter>Mdl\STG\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Bullet\Linear.cpp">
+      <Filter>Mdl\STG\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Bullet\Rotate.cpp">
+      <Filter>Mdl\STG\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Bullet\Launcher\Circle.cpp">
+      <Filter>Mdl\STG\Bullet\Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Bullet\Launcher\NWay.cpp">
+      <Filter>Mdl\STG\Bullet\Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Enemy\Base.cpp">
+      <Filter>Mdl\STG\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Enemy\HPGauge.cpp">
+      <Filter>Mdl\STG\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Item\Base.cpp">
+      <Filter>Mdl\STG\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Item\Extend.cpp">
+      <Filter>Mdl\STG\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Item\PowerUp.cpp">
+      <Filter>Mdl\STG\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Item\SupplySpAttack.cpp">
+      <Filter>Mdl\STG\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\MyShot\Base.cpp">
+      <Filter>Mdl\STG\MyShot</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Actor\Animation.cpp">
+      <Filter>Mdl\STG\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Actor\Base.cpp">
+      <Filter>Mdl\STG\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Actor\FadeOut.cpp">
+      <Filter>Mdl\STG\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Actor\Particle\Creator.cpp">
+      <Filter>Mdl\STG\Actor\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Actor\Particle\Particle.cpp">
+      <Filter>Mdl\STG\Actor\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\Console.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\Exception.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\Resource\Manager.cpp">
+      <Filter>Util\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\Sprite\Animation.cpp">
+      <Filter>Util\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\Sprite\Manager.cpp">
+      <Filter>Util\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\File\Manager.cpp">
+      <Filter>Util\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\File\Detail\Cache.cpp">
+      <Filter>Util\File\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\File\Detail\DeviceOfDynamicFile.cpp">
+      <Filter>Util\File\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\File\Detail\DynamicFile.cpp">
+      <Filter>Util\File\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\File\Detail\SourceOfFile.cpp">
+      <Filter>Util\File\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\File\Detail\SyncFile.cpp">
+      <Filter>Util\File\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\Sound\Manager.cpp">
+      <Filter>Util\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\Sound\Detail\Static.cpp">
+      <Filter>Util\Sound\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\Sound\Detail\Stream.cpp">
+      <Filter>Util\Sound\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\STG\ArrowLocator.cpp">
+      <Filter>Util\STG</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\STG\NWay.cpp">
+      <Filter>Util\STG</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\Font\Manager.cpp">
+      <Filter>Util\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\Font\Detail\SLNFont.cpp">
+      <Filter>Util\Font\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\Font\Detail\TextureLoader.cpp">
+      <Filter>Util\Font\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\Input\Manager.cpp">
+      <Filter>Util\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\Input\STG\Detail\Controller.cpp">
+      <Filter>Util\Input\STG\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\Input\STG\Detail\ReplayController.cpp">
+      <Filter>Util\Input\STG\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\Core\Manager.cpp">
+      <Filter>Util\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\Random\Impl\SLN.cpp">
+      <Filter>Util\Random\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ctrl\Scene\Initialize.cpp">
+      <Filter>Ctrl\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ctrl\Scene\Manager.cpp">
+      <Filter>Ctrl\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ctrl\Scene\STG\STG.cpp">
+      <Filter>Ctrl\Scene\STG</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ctrl\Scene\STG\Title.cpp">
+      <Filter>Ctrl\Scene\STG</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ctrl\STG\Actors.cpp">
+      <Filter>Ctrl\STG</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ctrl\STG\Pause.cpp">
+      <Filter>Ctrl\STG</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ctrl\STG\Option\Manager.cpp">
+      <Filter>Ctrl\STG\Option</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ctrl\STG\Option\Detail\SettingFile.cpp">
+      <Filter>Ctrl\STG\Option\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ctrl\STG\Mode\Base.cpp">
+      <Filter>Ctrl\STG\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ctrl\STG\Mode\Regular.cpp">
+      <Filter>Ctrl\STG\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ctrl\STG\Mode\Replay.cpp">
+      <Filter>Ctrl\STG\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ctrl\STG\Mode\StageSelect.cpp">
+      <Filter>Ctrl\STG\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ctrl\STG\Mode\Conf\Holder.cpp">
+      <Filter>Ctrl\STG\Mode\Conf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ctrl\STG\Configuration\Manager.cpp">
+      <Filter>Ctrl\STG\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IntrusivePtr.cpp" />
+    <ClCompile Include="Source\PCH.cpp" />
+    <ClCompile Include="Source\WinMain.cpp" />
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\TestStage1\StageCore.cpp">
+      <Filter>Mdl\STG\Stage\Test\TestStage1</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\StageSetCore.cpp">
+      <Filter>Mdl\STG\Stage\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\Idiot01.cpp">
+      <Filter>Mdl\STG\Stage\Test\TestStage1\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\Idiot01a.cpp">
+      <Filter>Mdl\STG\Stage\Test\TestStage1\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\Idiot01b.cpp">
+      <Filter>Mdl\STG\Stage\Test\TestStage1\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\Idiot02.cpp">
+      <Filter>Mdl\STG\Stage\Test\TestStage1\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\TestStage1\Event\Ev02.cpp">
+      <Filter>Mdl\STG\Stage\Test\TestStage1\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Auxs.cpp">
+      <Filter>Mdl\STG</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\MyShip\TestShip\Core.cpp">
+      <Filter>Mdl\STG\MyShip\TestShip</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\TestStage1\Event\Ev03.cpp">
+      <Filter>Mdl\STG\Stage\Test\TestStage1\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\En02.cpp">
+      <Filter>Mdl\STG\Stage\Test\TestStage1\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Stage\Test\TestStage1\BMLParserHolder.cpp">
+      <Filter>Mdl\STG\Stage\Test\TestStage1</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\STG\Locator\MLLocator.cpp">
+      <Filter>Util\STG\Locator</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\Python\Manager.cpp">
+      <Filter>Util\Python</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ctrl\Scene\Finalizer.cpp">
+      <Filter>Ctrl\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mdl\STG\Bullet\BulletML\MLActor.cpp">
+      <Filter>Mdl\STG\Bullet\BulletML</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\View\FadeIn.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\View\FadeOut.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\View\Forward.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\View\STG\DrawPriority.h">
+      <Filter>View\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\View\STG\Forward.h">
+      <Filter>View\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\View\STG\Pause\IPause.h">
+      <Filter>View\STG\Pause</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\Forward.h">
+      <Filter>Mdl</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Forward.h">
+      <Filter>Mdl\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Resource\Common.h">
+      <Filter>Mdl\STG\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\MyShip\Base.h">
+      <Filter>Mdl\STG\MyShip</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\MyShip\IMyShip.h">
+      <Filter>Mdl\STG\MyShip</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\MyShip\Parameter.h">
+      <Filter>Mdl\STG\MyShip</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\MyShip\TypeA\Core.h">
+      <Filter>Mdl\STG\MyShip\TypeA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\MyShip\TypeA\Laser.h">
+      <Filter>Mdl\STG\MyShip\TypeA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\MyShip\TypeA\Missile.h">
+      <Filter>Mdl\STG\MyShip\TypeA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\MyShip\TypeA\Option.h">
+      <Filter>Mdl\STG\MyShip\TypeA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\MyShip\TypeA\Resource.h">
+      <Filter>Mdl\STG\MyShip\TypeA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\MyShip\TypeA\SpMissile.h">
+      <Filter>Mdl\STG\MyShip\TypeA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\Event\Base.h">
+      <Filter>Mdl\STG\Stage\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\Event\IEvent.h">
+      <Filter>Mdl\STG\Stage\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\Stage\Base.h">
+      <Filter>Mdl\STG\Stage\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\Stage\IStage.h">
+      <Filter>Mdl\STG\Stage\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\Stage\Parameter.h">
+      <Filter>Mdl\STG\Stage\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\StageSet\Base.h">
+      <Filter>Mdl\STG\Stage\StageSet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\StageSet\IStageSet.h">
+      <Filter>Mdl\STG\Stage\StageSet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\StageSet\Parameter.h">
+      <Filter>Mdl\STG\Stage\StageSet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\Background.h">
+      <Filter>Mdl\STG\Stage\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\Forward.h">
+      <Filter>Mdl\STG\Stage\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\Resource.h">
+      <Filter>Mdl\STG\Stage\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\Event\Ev01.h">
+      <Filter>Mdl\STG\Stage\Test\TestStage1\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\En01.h">
+      <Filter>Mdl\STG\Stage\Test\TestStage1\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Bullet\Base.h">
+      <Filter>Mdl\STG\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Bullet\IBullet.h">
+      <Filter>Mdl\STG\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Bullet\Linear.h">
+      <Filter>Mdl\STG\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Bullet\Rotate.h">
+      <Filter>Mdl\STG\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Bullet\Launcher\Circle.h">
+      <Filter>Mdl\STG\Bullet\Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Bullet\Launcher\NWay.h">
+      <Filter>Mdl\STG\Bullet\Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Enemy\Base.h">
+      <Filter>Mdl\STG\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Enemy\HPGauge.h">
+      <Filter>Mdl\STG\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Enemy\IEnemy.h">
+      <Filter>Mdl\STG\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Item\Base.h">
+      <Filter>Mdl\STG\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Item\Extend.h">
+      <Filter>Mdl\STG\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Item\IItem.h">
+      <Filter>Mdl\STG\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Item\PowerUp.h">
+      <Filter>Mdl\STG\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Item\SupplySpAttack.h">
+      <Filter>Mdl\STG\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\MyShot\Base.h">
+      <Filter>Mdl\STG\MyShot</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\MyShot\IMyShot.h">
+      <Filter>Mdl\STG\MyShot</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Actor\Animation.h">
+      <Filter>Mdl\STG\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Actor\Base.h">
+      <Filter>Mdl\STG\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Actor\FadeOut.h">
+      <Filter>Mdl\STG\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Actor\IActor.h">
+      <Filter>Mdl\STG\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Actor\Particle\Creator.h">
+      <Filter>Mdl\STG\Actor\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Actor\Particle\Parameter.h">
+      <Filter>Mdl\STG\Actor\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Actor\Particle\Particle.h">
+      <Filter>Mdl\STG\Actor\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Common.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Console.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Consts.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Exception.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Forward.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\FunctionList.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\FunctionQueue.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Pager.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\RepeatCounter.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\SafeUpdateObject.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Resource\Manager.h">
+      <Filter>Util\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Resource\Exception\Duplicate.h">
+      <Filter>Util\Resource\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Resource\Exception\NotFound.h">
+      <Filter>Util\Resource\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Sprite\Animation.h">
+      <Filter>Util\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Sprite\DrawParameter.h">
+      <Filter>Util\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Sprite\Manager.h">
+      <Filter>Util\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Sprite\SrcDef.h">
+      <Filter>Util\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Sprite\Exception\InvalidTexture.h">
+      <Filter>Util\Sprite\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\File\IDynamicFile.h">
+      <Filter>Util\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\File\Manager.h">
+      <Filter>Util\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\File\Stream.h">
+      <Filter>Util\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\File\Exception\NotFound.h">
+      <Filter>Util\File\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\File\Detail\Cache.h">
+      <Filter>Util\File\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\File\Detail\DeviceOfDynamicFile.h">
+      <Filter>Util\File\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\File\Detail\DynamicFile.h">
+      <Filter>Util\File\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\File\Detail\ICrypt.h">
+      <Filter>Util\File\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\File\Detail\SourceOfFile.h">
+      <Filter>Util\File\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\File\Detail\SyncFile.h">
+      <Filter>Util\File\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Sound\IStatic.h">
+      <Filter>Util\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Sound\IStream.h">
+      <Filter>Util\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Sound\Manager.h">
+      <Filter>Util\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Sound\Exception\Invalid.h">
+      <Filter>Util\Sound\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Sound\Exception\InvalidLayer.h">
+      <Filter>Util\Sound\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Sound\Detail\Static.h">
+      <Filter>Util\Sound\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Sound\Detail\Stream.h">
+      <Filter>Util\Sound\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\STG\ArrowLocator.h">
+      <Filter>Util\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\STG\Consts.h">
+      <Filter>Util\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\STG\Forward.h">
+      <Filter>Util\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\STG\NWay.h">
+      <Filter>Util\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\STG\Vector2D.h">
+      <Filter>Util\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\STG\Hit\Circle.h">
+      <Filter>Util\STG\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\STG\Hit\Rect.h">
+      <Filter>Util\STG\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\STG\Locator\ILocator.h">
+      <Filter>Util\STG\Locator</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\STG\Locator\Linear.h">
+      <Filter>Util\STG\Locator</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\STG\Locator\Rotate.h">
+      <Filter>Util\STG\Locator</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\STG\Locator\Trace.h">
+      <Filter>Util\STG\Locator</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Font\IFont.h">
+      <Filter>Util\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Font\Manager.h">
+      <Filter>Util\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Font\Exception\Invalid.h">
+      <Filter>Util\Font\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Font\Detail\SLNFont.h">
+      <Filter>Util\Font\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Font\Detail\TextureLoader.h">
+      <Filter>Util\Font\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Delegate\Delegate.h">
+      <Filter>Util\Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Delegate\Forward.h">
+      <Filter>Util\Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Delegate\Detail\IHolder.h">
+      <Filter>Util\Delegate\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Delegate\Detail\RawPtrHolder.h">
+      <Filter>Util\Delegate\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Delegate\Detail\SharedPtrHolder.h">
+      <Filter>Util\Delegate\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Delegate\Detail\StaticHolder.h">
+      <Filter>Util\Delegate\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Delegate\Detail\WeakPtrHolder.h">
+      <Filter>Util\Delegate\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Input\Manager.h">
+      <Filter>Util\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Input\STG\Forward.h">
+      <Filter>Util\Input\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Input\STG\IController.h">
+      <Filter>Util\Input\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Input\STG\Detail\Controller.h">
+      <Filter>Util\Input\STG\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Input\STG\Detail\ReplayController.h">
+      <Filter>Util\Input\STG\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Core\Manager.h">
+      <Filter>Util\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Random\IRandom.h">
+      <Filter>Util\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Random\Impl\SLN.h">
+      <Filter>Util\Random\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\Forward.h">
+      <Filter>Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\Scene\Initialize.h">
+      <Filter>Ctrl\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\Scene\IScene.h">
+      <Filter>Ctrl\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\Scene\Manager.h">
+      <Filter>Ctrl\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\Scene\STG\Forward.h">
+      <Filter>Ctrl\Scene\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\Scene\STG\STG.h">
+      <Filter>Ctrl\Scene\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\Scene\STG\Title.h">
+      <Filter>Ctrl\Scene\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Actors.h">
+      <Filter>Ctrl\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Forward.h">
+      <Filter>Ctrl\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Pause.h">
+      <Filter>Ctrl\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Option\Manager.h">
+      <Filter>Ctrl\STG\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Option\Parameter.h">
+      <Filter>Ctrl\STG\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Option\Detail\SettingFile.h">
+      <Filter>Ctrl\STG\Option\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Mode\Base.h">
+      <Filter>Ctrl\STG\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Mode\IMode.h">
+      <Filter>Ctrl\STG\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Mode\Regular.h">
+      <Filter>Ctrl\STG\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Mode\Replay.h">
+      <Filter>Ctrl\STG\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Mode\StageSelect.h">
+      <Filter>Ctrl\STG\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Mode\Conf\Holder.h">
+      <Filter>Ctrl\STG\Mode\Conf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Mode\Conf\Regular.h">
+      <Filter>Ctrl\STG\Mode\Conf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Mode\Conf\Replay.h">
+      <Filter>Ctrl\STG\Mode\Conf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Mode\Conf\StageSelect.h">
+      <Filter>Ctrl\STG\Mode\Conf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Configuration\ConfigurateMyShip.h">
+      <Filter>Ctrl\STG\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Configuration\ConfigurateStage.h">
+      <Filter>Ctrl\STG\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Configuration\Manager.h">
+      <Filter>Ctrl\STG\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Configuration\Data\MyShip.h">
+      <Filter>Ctrl\STG\Configuration\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Configuration\Data\Stage.h">
+      <Filter>Ctrl\STG\Configuration\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Configuration\Data\StageSet.h">
+      <Filter>Ctrl\STG\Configuration\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Configuration\Detail\Holder.h">
+      <Filter>Ctrl\STG\Configuration\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Configuration\Detail\IInstantiation.h">
+      <Filter>Ctrl\STG\Configuration\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Configuration\Detail\Instantiation.h">
+      <Filter>Ctrl\STG\Configuration\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BoostFwd.h" />
+    <ClInclude Include="Source\Fwd.h" />
+    <ClInclude Include="Source\PCH.h" />
+    <ClInclude Include="Source\SLNFwd.h" />
+    <ClInclude Include="Source\StdFwd.h" />
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\StageCore.h">
+      <Filter>Mdl\STG\Stage\Test\TestStage1</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\StageSetCore.h">
+      <Filter>Mdl\STG\Stage\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\Idiot01.h">
+      <Filter>Mdl\STG\Stage\Test\TestStage1\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\Idiot01a.h">
+      <Filter>Mdl\STG\Stage\Test\TestStage1\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\Idiot01b.h">
+      <Filter>Mdl\STG\Stage\Test\TestStage1\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\Idiot02.h">
+      <Filter>Mdl\STG\Stage\Test\TestStage1\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\RepeatQueue.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\Event\Ev02.h">
+      <Filter>Mdl\STG\Stage\Test\TestStage1\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Auxs.h">
+      <Filter>Mdl\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\MyShip\TestShip\Core.h">
+      <Filter>Mdl\STG\MyShip\TestShip</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Bullet\BulletML\CreateParam.h">
+      <Filter>Mdl\STG\Bullet\BulletML</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\BMLParserType.h">
+      <Filter>Mdl\STG\Stage\Test\TestStage1</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\Event\Ev03.h">
+      <Filter>Mdl\STG\Stage\Test\TestStage1\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\Enemy\En02.h">
+      <Filter>Mdl\STG\Stage\Test\TestStage1\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Stage\Test\TestStage1\BMLParserHolder.h">
+      <Filter>Mdl\STG\Stage\Test\TestStage1</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\STG\Locator\MLLocator.h">
+      <Filter>Util\STG\Locator</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Python\Manager.h">
+      <Filter>Util\Python</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Python\Wrapper\IConsole.h">
+      <Filter>Util\Python\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Python\Wrapper\ConsoleImpl.h">
+      <Filter>Util\Python\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Python\Wrapper\IFont.h">
+      <Filter>Util\Python\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Python\Wrapper\FontImpl.h">
+      <Filter>Util\Python\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Python\Wrapper\IInput.h">
+      <Filter>Util\Python\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Python\Wrapper\InputImpl.h">
+      <Filter>Util\Python\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Python\Wrapper\ISound.h">
+      <Filter>Util\Python\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Python\Wrapper\SoundImpl.h">
+      <Filter>Util\Python\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Python\Wrapper\ISprite.h">
+      <Filter>Util\Python\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Python\Wrapper\SpriteImpl.h">
+      <Filter>Util\Python\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\Scene\PyScene.h">
+      <Filter>Ctrl\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Python\Wrapper\IScene.h">
+      <Filter>Util\Python\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Python\Wrapper\SceneImpl.h">
+      <Filter>Util\Python\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\Scene\Finalizer.h">
+      <Filter>Ctrl\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Python\ISTG.h">
+      <Filter>Ctrl\STG\Python</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Python\STGImpl.h">
+      <Filter>Ctrl\STG\Python</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Python\IActors.h">
+      <Filter>Ctrl\STG\Python</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Python\ActorsImpl.h">
+      <Filter>Ctrl\STG\Python</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mdl\STG\Bullet\BulletML\MLActor.h">
+      <Filter>Mdl\STG\Bullet\BulletML</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Python\IConf.h">
+      <Filter>Ctrl\STG\Python</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Python\ConfImpl.h">
+      <Filter>Ctrl\STG\Python</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\STG\Circling.h">
+      <Filter>Util\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Collision\Node.h">
+      <Filter>Ctrl\STG\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Collision\Manager.h">
+      <Filter>Ctrl\STG\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Collision\Detector.h">
+      <Filter>Ctrl\STG\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Python\Wrapper\IFile.h">
+      <Filter>Util\Python\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Python\Wrapper\FileImpl.h">
+      <Filter>Util\Python\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ctrl\STG\Configuration\Data\Pause.h">
+      <Filter>Ctrl\STG\Configuration\Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon1.ico">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="STGProject.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

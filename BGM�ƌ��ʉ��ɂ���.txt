@@ -1,0 +1,52 @@
+BGMと効果音は同梱されていませんが、
+各自で用意した音声ファイルを下記で指定するファイル名に変更し、
+適切なフォルダに配置することで音を鳴らすことができます。
+
+BGMはOGG形式で、効果音はWAV形式で用意してください。
+
+
+・BGM
+
+Data\BGM\Hidamari\Regular\Boss1.ogg --- ボス戦
+Data\BGM\Hidamari\Regular\GameOver.ogg --- ゲームオーバー
+Data\BGM\Hidamari\Regular\ResultScene.ogg --- ボス戦後の結果画面
+Data\BGM\Hidamari\Regular\Stage1.ogg --- ボス戦前のステージ
+
+Data\BGM\Hidamari\Title\MyShipSelect.ogg --- 自機選択画面
+
+
+・効果音
+
+Data\SE\Hidamari\Cancel.wav --- 項目キャンセル
+Data\SE\Hidamari\Select1.wav --- 項目選択1
+Data\SE\Hidamari\Select2.wav --- 項目選択2
+Data\SE\Hidamari\Select3.wav --- 項目選択3
+
+Data\SE\Hidamari\MyShip\Bomber.wav --- 特殊攻撃アイテム取得
+Data\SE\Hidamari\MyShip\Destruction.wav --- 自機の被弾
+Data\SE\Hidamari\MyShip\Item.wav --- アイテム取得
+Data\SE\Hidamari\MyShip\Lock.wav --- 敵をロック
+Data\SE\Hidamari\MyShip\LockShot.wav --- ロックショットの射撃
+Data\SE\Hidamari\MyShip\NormalShot.wav --- 通常ショットの射撃
+Data\SE\Hidamari\MyShip\PowerUp.wav --- パワーアップアイテム取得
+Data\SE\Hidamari\MyShip\ShotHit.wav --- 自機ショット命中
+
+Data\SE\Hidamari\MyShip\Nazuna\LaunchPlasma.wav --- プラズマ球の発射
+Data\SE\Hidamari\MyShip\Nazuna\PlasmaBlast.wav --- プラズマ球の爆発
+
+Data\SE\Hidamari\MyShip\Nori\ChangeOption.wav --- オプション数の変更
+Data\SE\Hidamari\MyShip\Nori\SpAttack.wav --- 特殊攻撃発動
+
+Data\SE\Hidamari\Regular\BossAlert.wav --- ボス前の警告音声
+Data\SE\Hidamari\Regular\BossDestruction1_1.wav --- ボス撃破時の爆発1
+Data\SE\Hidamari\Regular\BossDestruction1_2.wav --- ボス撃破時の爆発2
+Data\SE\Hidamari\Regular\CalcScore.wav --- 結果画面のスコア計算
+Data\SE\Hidamari\Regular\Explode1.wav --- 爆発1
+Data\SE\Hidamari\Regular\Explode2.wav --- 爆発2
+Data\SE\Hidamari\Regular\GeneratePrimalArmor.wav --- PAの生成
+Data\SE\Hidamari\Regular\Whump.wav --- 結果画面のノーミスボーナス計算
+
+Data\SE\Hidamari\Title\AreYouReady.wav --- 自機選択時の音声
+Data\SE\Hidamari\Title\Enter.wav --- タイトルメニュー表示
+Data\SE\Hidamari\Title\SelectYourBattleShip.wav --- 自機選択メニュー表示時の音声
+Data\SE\Hidamari\Title\TitleAppear.wav --- タイトル画面のフェードイン
